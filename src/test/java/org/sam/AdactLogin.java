@@ -50,6 +50,7 @@ public class AdactLogin extends Base {
 //	public static void main(String[] args) {
 //		systemConfig();
 //		launchUrl("https://adactinhotelapp.com/");
+		 System.out.println("sucess");
 //		
 //	}
 	
