@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="3" parallel="tests" >
+  <test name="Chrometest">
+   
+  <parameter name="browse" value="chrome"/>
+  <parameter name="month" value="January"/>
+  <parameter name="year" value="2022"/> 
+ 
+ 
+    <!--    <groups>
+  <run>
+  <include name="smoke"/>
+  
+  
+  </run>
+  
+  </groups>-->
+  
+    <classes>
+    
+      
+      <class name="org.sam.AdactLogin">
+      <!-- <methods>
+      <include name="tc2"/>
+      <include name="tc1"/>
+       </methods>-->
+      </class>
+      
+      
+      <class name="org.sam.AdactSearch"/> 
+      <class name="org.sam.AdactOrder"/> 
+     
+    
+    </classes>
+  </test>  
+  
+  <!-- <test name="FirefoxTest">
+  <parameter name="browse" value="I"/>
+   
+   <parameter name="month" value="January"/>
+  <parameter name="year" value="2022"/> 
+    
+  
+  
+    <classes>
+    
+      
+      <class name="org.sam.AdactLogin">
+       
+      </class>
+      
+      
+      <class name="org.sam.AdactSearch"/> 
+      <class name="org.sam.AdactOrder"/> 
+     
+    
+    </classes>
+  </test> -->
+</suite> 

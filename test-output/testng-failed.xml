@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Suite]]" parallel="tests">
+  <test thread-count="3" name="Chrometest(failed)(failed)" parallel="tests">
+    <parameter name="month" value="January"/>
+    <parameter name="year" value="2022"/>
+    <parameter name="browse" value="chrome"/>
+    <classes>
+      <class name="org.sam.AdactOrder">
+        <methods>
+          <include name="tc3" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- org.sam.AdactOrder -->
+      <class name="org.sam.AdactSearch">
+        <methods>
+          <include name="tc2" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- org.sam.AdactSearch -->
+    </classes>
+  </test> <!-- Chrometest(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Suite]] -->
